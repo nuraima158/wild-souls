@@ -748,7 +748,21 @@ footer {
     margin-top: 40px;
 }
 
-
+.none_info{
+    display: none;
+}
+.none_info button{
+    border: none;
+    background: none;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 22px;
+    text-align: left;
+    font-family: 'Roboto';
+    padding-top: 20px;
+    text-decoration: underline;
+}
 
 #information {
     border: 3px solid pink;
@@ -857,7 +871,7 @@ form input {
 
     .main_confirm {
         position: relative;
-        left: 6%;
+        left: 2%;
         top: 560px;
     }
 
@@ -902,11 +916,14 @@ form input {
     }
 
     .left_information {
-        width: 100%;
+        width: 90%;
         margin-left: 20px;
         margin-top: 60px;
     }
-
+    .infoButton{
+        margin-bottom: 80px;
+        margin-left: 50px;
+    }
     .pink {
         height: fit-content;
         background: #F5AFB9;
@@ -975,15 +992,16 @@ form input {
     .wild_halva {
         background: #ABAFD6;
         border-radius: 0px 220px 0px 0px;
-        width: 385px;
-        height: 471px;
+        width: 345px;
+        height: 551px;
+        margin-left: 20px;
     }
 
     .spreadLove {
-        width: 385px;
+        width: 345px;
         height: 590px;
         background: #EC4844;
-        margin-left: 0px;
+        margin-left: 20px;
         padding-top: 65px;
         text-align: center;
     }
@@ -1024,14 +1042,14 @@ form input {
     }
 
     .wild_halva_child>div button {
-        width: 290px;
+        width: 230px;
         height: 30px;
         margin-top: 45px;
     }
 
     .spreadLove button {
         width: 297px;
-        height: 64px;
+        height: 44px;
         margin-top: 30px;
     }
 
@@ -1088,8 +1106,9 @@ form input {
     .composition {
         background: #BE5A4B;
         border-radius: 0px 220px 0px 0px;
-        padding-left: 20px;
-        width: 100%;
+        padding-left: 10px;
+        margin-left: 20px;
+        width: 90%;
         padding-bottom: 60px;
     }
 
@@ -1101,7 +1120,7 @@ form input {
 
     .likeNut p {
         font-weight: 600;
-        font-size: 1.8em;
+        font-size: 1.6em;
     }
 
     .composition h1 {
@@ -1138,7 +1157,6 @@ form input {
     .nuts {
         display: flex;
         flex-direction: column;
-
     }
 
 
@@ -1146,17 +1164,19 @@ form input {
 
     footer {
         background: #BE5A4B;
-        padding-top: 135px;
+        padding-top: 50px;
     }
 
     .logo_footer {
         text-align: center;
-        margin-bottom: 116px;
+        margin-bottom: 50px;
     }
-
+    .stay_wild{
+        text-align: center;
+    }
     .stay_wild input {
         border: none;
-        background: none;
+        background: white;
         border-bottom: 1px solid black;
         margin-top: 45px;
         margin-bottom: 80px;
@@ -1184,6 +1204,7 @@ form input {
 
     .info_for_buyer {
         display: flex;
+        flex-direction: column;
         justify-content: space-evenly;
     }
 
@@ -1210,36 +1231,12 @@ form input {
     .contacts {
         margin-top: 40px;
     }
-
-
-
-    #information {
-        border: 3px solid pink;
-        background-color: #E9A8C6;
-        width: fit-content;
-        height: fit-content;
-    }
-
-    .hide {
+    .company_help,.products_contacts{
         display: none;
     }
-
-    form {
-        border: 2px solid grey;
-        height: fit-content;
-        width: 305px;
+    .none_info{
+        display: flex;
+        justify-content: space-evenly;
     }
-
-    form input {
-        margin-bottom: 10px;
-        width: 300px;
-    }
-
-    .aboutProducts,
-    .whoWeAreInfo {
-        border: 2px solid violet;
-        background-color: #F5AFB9;
-        width: fit-content;
-        height: fit-content;
-    }
+    
 }
